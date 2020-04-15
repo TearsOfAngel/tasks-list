@@ -1,0 +1,141 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
+.central_container{
+    width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.listoftasks{
+    position: absolute; 
+    left: 0; 
+    top: 60px; 
+    width: 470px;
+    margin-right: 20px;
+    font-size: 21px;
+    
+}
+.addingtask{
+    position: absolute; 
+    right: 0; 
+    top: 60px; 
+    width: 470px;
+    font-size: 21px;
+    
+}
+.tasknameanddescription{
+    width: 470px;
+    height: 560px;
+    background-color: #ffffff;
+    margin-top: 34px;
+}
+.taskname{
+    width: 390px;
+    position: absolute;
+    top: 113px;
+    left: 40px;
+}
+#namerow{
+    width: 390px;
+    height: 45px;
+    background-color: #f9f9f9;
+    resize: none;
+}
+.smalldescription{
+    font-size: 16px;
+    color: rgb(137, 147, 173); 
+    padding-bottom: 10px; 
+}
+.description{
+    width: 390px;
+    position: absolute;
+    top: 240px;
+    left: 40px;
+}
+#description_row{
+    width: 390px;
+    height: 230px;
+    background-color: #f9f9f9;
+    resize: none;
+}
+#buttonadd{
+    width: 220px;
+    height: 56px;
+    background-color: #2174fd;
+    color: white;
+    font-size: 16px;
+}
+.button{
+    position: absolute;
+    top: 530px;
+    left: 40px;
+}
+.empty{
+    margin-top: 90px;
+    font-size: 16px;
+    color: #8993ad;
+}
+/*
+вставляем дело
+*/
+.todoitem{
+    width: 470px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 34px;
+    position: relative;
+    margin-bottom: 110px;
+}
+.todoname{
+    font: bold;
+    position: absolute;
+    left: 20px;
+    top: 18px;
+
+
+}
+.wraping{
+    position: absolute;
+    background-color: #ffffff;
+    width: 470px;
+    height: 85px;
+    top: 53px;
+
+}
+.case_text{
+    color: grey;
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    max-width: 450px;
+}
+.delete_case{
+    margin-left: 25px;
+    position: absolute;
+    left: 154px;
+    top: 21px;
+    border: none;
+    background: none;
+    background: url('clear-button.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 9px;
+}
+.wrap{
+    position: absolute;
+    border: none;
+    background: none;
+    background: url('fold.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 6px;
+    right: 24px;
+    top: 24px;
+}
